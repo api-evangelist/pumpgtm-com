@@ -1,4 +1,4 @@
-# pumpgtm-com
+# PumpGTM
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,129 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-pumpgtm-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://pumpgtm.com/
+PumpGTM provides an AI‑powered outbound sales platform that helps startups and growth companies find and engage buyers across LinkedIn, X and email. Backed by Y Combinator, it offers self‑serve tools and a done‑for‑you service, with pricing starting at $75 per LinkedIn account per month. The platform includes a Machine‑Control‑Protocol (MCP) server exposing People Data and Signals APIs for integration with AI agents.
+
+**Areas:** AI · Sales · Outbound · Startup · Automation
+
+## PumpGTM on APIs.io
+
+Everything profiled for PumpGTM is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/pumpgtm-com/](https://apis.io/providers/pumpgtm-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (10)
+
+- [PumpGTM Account API](https://apis.io/apis/pumpgtm-com/pumpgtm-com-account-api/) — Workspaces, connected accounts, sending limits and Energy.
+- [PumpGTM Leads API](https://apis.io/apis/pumpgtm-com/pumpgtm-com-leads-api/) — Add people straight to a sequence, read and stop leads, and look up X identities.
+- [PumpGTM Manual review API](https://apis.io/apis/pumpgtm-com/pumpgtm-com-manual-review-api/) — Advanced. Approve people one by one before a Play messages them. Most integrations never need this; use POST /plays/{id}/leads instead.
+- [PumpGTM Partner API](https://apis.io/apis/pumpgtm-com/pumpgtm-com-partner-api/) — Run PumpGTM for many clients with one key.
+- [PumpGTM People search API](https://apis.io/apis/pumpgtm-com/pumpgtm-com-people-search-api/) — Find and enrich people, and read buying signals.
+- [PumpGTM Plays API](https://apis.io/apis/pumpgtm-com/pumpgtm-com-plays-api/) — A Play finds or receives people and messages them with its sequence. Add your own people to any Play with POST /plays/{id}/leads.
+- [PumpGTM Replies API](https://apis.io/apis/pumpgtm-com/pumpgtm-com-replies-api/) — Read replies waiting on you and answer them.
+- [PumpGTM Results API](https://apis.io/apis/pumpgtm-com/pumpgtm-com-results-api/) — Pace, funnel and the activity ledger.
+- [PumpGTM Sequences API](https://apis.io/apis/pumpgtm-com/pumpgtm-com-sequences-api/) — The messages a Play or lead list sends, across LinkedIn, email and X.
+- [PumpGTM Webhooks API](https://apis.io/apis/pumpgtm-com/pumpgtm-com-webhooks-api/) — Signed events for replies, leads and connections.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [PumpGTM Agentic Access](https://apis.io/agentic-access/pumpgtm-com/pumpgtm-com-agentic-access/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Pumpgtm Com Context](https://apis.io/jsonld/pumpgtm-com/pumpgtm-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [PumpGTM API Rules](https://apis.io/rules/pumpgtm-com/pumpgtm-com-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [PumpGTM Authentication](https://apis.io/security/pumpgtm-com/pumpgtm-com-authentication/)
+- [PumpGTM Domain Security](https://apis.io/security/pumpgtm-com/pumpgtm-com-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [PumpGTM Plans Pricing](https://apis.io/plans/pumpgtm-com/pumpgtm-com-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://pumpgtm.com/)
+- [Documentation](https://pumpgtm.com/docs)
+- [Getting started](https://pumpgtm.com/docs/quickstart)
+- [API reference](https://pumpgtm.com/openapi.json)
+- [Pricing](https://pumpgtm.com/pricing)
+- [Blog](https://pumpgtm.com/blog)
+- [Trust centre](https://pumpgtm.com/trust)
+- [Terms of service](https://app.pumpgtm.com/terms)
+- [Privacy policy](https://app.pumpgtm.com/privacy)
+- [GitHub](https://github.com/pumpgtm)
+
+## API Evangelist rating
+
+**Kin Score 55.0** — strong · rubric 0.27.0 · scored 2026-11-22
+
+| Facet | Score |
+|---|---|
+| Discoverability | 65.0 |
+| Contract quality | 52.3 |
+| Contract governance | 79.1 |
+| Operational transparency | 5.3 |
+| Developer ergonomics | 58.8 |
+| Access clarity | 58.4 |
+
+**Agent readiness 63.5** — agent-native
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | verified |
+| Error Semantics | verified |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | yes |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | — |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 27.3** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/pumpgtm-com/](https://apis.io/providers/pumpgtm-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for PumpGTM: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/pumpgtm-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
